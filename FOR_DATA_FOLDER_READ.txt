@@ -1,0 +1,31 @@
+============================================================
+BRAIN HEMORRHAGE DETECTION PROJECT - QUICK START
+============================================================
+
+[ENGLISH]
+1. DATA SETUP:
+   Place your raw images into the project directory. 
+   Download link (Raw CT Scans):
+   https://drive.google.com/drive/folders/1ULKtNAYQLmhjwl-T4xEFozlVggU5sh4C?usp=sharing
+
+   Instructions:
+   - Extract the downloaded "data" folder into the project root directory.
+   - The download already contains the correct structure: "data/raw/hemorrhage/" and "data/raw/normal/".
+
+2. RUN AUGMENTATION:
+   Run "augment_data.py". This will automatically process 
+   the raw data and generate the ~42,000 augmented images 
+   required for training.
+
+   Command: python augment_data.py
+
+3. PRE-TRAINED MODELS:
+   The best performance models (Val Acc: 0.9741+) are 
+   already saved in the "output/" directory. 
+   You can run inference or launch the app directly.
+
+4. RUNNING THE APP:
+   To start the diagnostic interface:
+   python app/desktop_app.py
+
+------------------------------------------------------------
