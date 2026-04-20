@@ -151,15 +151,3 @@ pip install --force-reinstall torch torchvision torchaudio --index-url https://d
 
 ---
 
-### 🇹🇷 Özet (Turkish Summary)
-Bu proje, kafa BT taramalarında beyin kanamasını tespit etmek için geliştirilmiş bir derin öğrenme sistemidir. 
-1. **Sanal Ortamı Aktif Et:** `.venv\Scripts\activate`
-2. **Kütüphaneleri Kur:** `pip install -r requirements.txt`
-3. **Veriyi Hazırla:** `augment_data.py`
-4. **Eğitimi Başlat:** `python train.py`
-5. **Raporları/Tabloları Oluştur:** `python scratch/generate_trials_table.py` ve `python scratch/generate_optimization_table.py`
-6. **Sunum Örneklerini Topla (Web-Crawling):** `python scratch/web_crawler.py`
-7. **Uygulamayı Aç:** `python app/desktop_app.py`
-
-> [!TIP]
-> **GPU Hızlandırma:** Eğer NVIDIA ekran kartınız varsa, eğitimi çok daha hızlı tamamlamak için yukarıdaki CUDA kurulum komutunu kullanabilirsiniz.
